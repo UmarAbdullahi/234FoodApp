@@ -1,0 +1,102 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teachers",
+  "info": {
+    "singularName": "teacher",
+    "pluralName": "teachers",
+    "displayName": "teachers"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "OtherNames": {
+      "type": "string"
+    },
+    "Gender": {
+      "type": "string"
+    },
+    "MaritalStatus": {
+      "type": "string"
+    },
+    "DOB": {
+      "type": "date"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Position": {
+      "type": "string"
+    },
+    "PSN": {
+      "type": "string"
+    },
+    "HomeAddress": {
+      "type": "text"
+    },
+    "YearsInService": {
+      "type": "string"
+    },
+    "Occupation": {
+      "type": "string"
+    },
+    "Passport": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "EmploymentLetter": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "IDCard": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "State": {
+      "type": "string"
+    },
+    "LGA": {
+      "type": "string"
+    },
+    "SchoolName": {
+      "type": "string"
+    },
+    "SchoolAddress": {
+      "type": "text"
+    },
+    "LaptopSerialNumber": {
+      "type": "string"
+    },
+    "Others1": {
+      "type": "string"
+    },
+    "Others2": {
+      "type": "string"
+    }
+  }
+}
