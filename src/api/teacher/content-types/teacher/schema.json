@@ -4,7 +4,8 @@
   "info": {
     "singularName": "teacher",
     "pluralName": "teachers",
-    "displayName": "teachers"
+    "displayName": "teachers",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,9 +27,6 @@
     "MaritalStatus": {
       "type": "string"
     },
-    "DOB": {
-      "type": "date"
-    },
     "Phone": {
       "type": "string"
     },
@@ -48,34 +46,37 @@
       "type": "string"
     },
     "Passport": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "EmploymentLetter": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "IDCard": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "State": {
       "type": "string"
@@ -96,6 +97,9 @@
       "type": "string"
     },
     "Others2": {
+      "type": "string"
+    },
+    "DOB": {
       "type": "string"
     }
   }
