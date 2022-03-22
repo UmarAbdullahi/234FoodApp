@@ -111,4 +111,8 @@ license.txt
 exports
 *.cache
 build
+<<<<<<< HEAD
 .strapi-updater.json
+=======
+.strapi-updater.json
+>>>>>>> 6928b0dcff0b37541573ea3df3624fa9b8da0a99
