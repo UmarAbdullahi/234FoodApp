@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "placed_orders",
+  "info": {
+    "singularName": "placed-order",
+    "pluralName": "placed-orders",
+    "displayName": "placed_order"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "delivery_address": {
+      "type": "text"
+    },
+    "order_time": {
+      "type": "time"
+    },
+    "estimated_delivery_time": {
+      "type": "time"
+    },
+    "food_ready": {
+      "type": "boolean"
+    },
+    "actual_delivery_time": {
+      "type": "time"
+    },
+    "comment": {
+      "type": "text"
+    },
+    "customer_id": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::customer.customer",
+      "inversedBy": "placed_order"
+    },
+    "price": {
+      "type": "string"
+    },
+    "discount": {
+      "type": "string"
+    },
+    "final_price": {
+      "type": "string"
+    }
+  }
+}

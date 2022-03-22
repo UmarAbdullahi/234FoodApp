@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "singularName": "menu",
+    "pluralName": "menus",
+    "displayName": "menu"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category",
+      "mappedBy": "menu"
+    },
+    "description": {
+      "type": "string"
+    },
+    "ingredients": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "recipe": {
+      "type": "richtext"
+    },
+    "active": {
+      "type": "boolean"
+    }
+  }
+}

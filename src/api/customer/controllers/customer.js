@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  teacher controller
+ *  customer controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::teacher.teacher');
+module.exports = createCoreController('api::customer.customer');

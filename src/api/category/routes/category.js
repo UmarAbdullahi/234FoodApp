@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * teacher router.
+ * category router.
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::teacher.teacher');
+module.exports = createCoreRouter('api::category.category');
